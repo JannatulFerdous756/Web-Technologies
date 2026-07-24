@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+    <title>University Admission Form</title>
+    </head>
+
+    <body>
+        <form>
+            <fieldset>
+                <legend><b>Personal Information</b></legend>
+                <label>Full Name:</label>
+                <input type="text" placeholder="Enter your full name" name="name"><br><br>
+                <label>Email:</label>
+                <input type="email" placeholder="Enter your email" name="email"><br><br>
+                <label>Date of Birth:</label>
+                <input type="date" name="date"><br><br>
+                <label>Gender:</label>
+                <input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="Female">Female
+                <input type="radio" name="gender" value="Other">Other
+                <br><br>
+                <label>Interests:</label>
+                <input type="checkbox" name="interest" value="Programming">Programming
+                <input type="checkbox" name="interest" value="Sports">Sports
+                <input type="checkbox" name="interest" value="Reading">Reading
+                
+
+            </fieldset>
+
+            <fieldset>
+                <legend><b>Academic Information</b></legend>
+
+                <label>SSC Result:</label>
+                <input type="text" required>
+                <br><br>
+                <label>HSC Result:</label>
+                <input type="text" required>
+                <br><br>
+                <label>Preferred Department</label>
+                <select required>
+                    <option value="">Select Departments</option>
+                    <option>CSE</option>
+                    <option>EEE</option>
+                    <option>BBA</option>
+                    <option>LLB</option>
+                </select>
+                <br><br>
+                 <label>Upload Transcript:</label>
+                 <input type="file" required>
+                 <br><br>
+            </fieldset>
+
+              <input type="submit" value="Submit">
+              <input type="reset" value="Reset">
+
+
+        </form>
+    </body>
+
+
+
+
+
+
+
+
+</html>
