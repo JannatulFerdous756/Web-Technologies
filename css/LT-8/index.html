@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+    
+    <title>Overflow Behavior Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>CSS Overflow Behavior</h1>
+
+    <div class="container">
+
+        <div class="text-box visible-box">
+            <h2>Overflow: Visible</h2>
+            <p>
+                This is a long paragraph inside a fixed size box. The purpose of this text is to test
+                how overflow visible works when the content does not fit inside the box.
+            </p>
+            <p>
+                With overflow visible, the extra content will come outside the box instead of being
+                hidden or scrollable.
+            </p>
+            <p>
+                This extra paragraph is added to make the content larger than the fixed height.
+            </p>
+        </div>
+
+        <div class="text-box hidden-box">
+            <h2>Overflow: Hidden</h2>
+            <p>
+                This is a long paragraph inside a fixed size box. The purpose of this text is to test
+                how overflow hidden works when the content does not fit inside the box.
+            </p>
+            <p>
+                With overflow hidden, the extra content will be clipped and will not be visible outside
+                the box.
+            </p>
+            <p>
+                This extra paragraph is added to make the content larger than the fixed height.
+            </p>
+        </div>
+
+        <div class="text-box scroll-box">
+            <h2>Overflow: Scroll</h2>
+            <p>
+                This is a long paragraph inside a fixed size box. The purpose of this text is to test
+                how overflow scroll works when the content does not fit inside the box.
+            </p>
+            <p>
+                With overflow scroll, scrollbars will appear so the user can scroll and read the extra
+                content.
+            </p>
+            <p>
+                This extra paragraph is added to make the content larger than the fixed height.
+            </p>
+        </div>
+
+        <div class="text-box auto-box">
+            <h2>Overflow: Auto</h2>
+            <p>
+                This is a long paragraph inside a fixed size box. The purpose of this text is to test
+                how overflow auto works when the content does not fit inside the box.
+            </p>
+            <p>
+                With overflow auto, scrollbars will appear only when the content is larger than the box.
+            </p>
+            <p>
+                This extra paragraph is added to make the content larger than the fixed height.
+            </p>
+        </div>
+
+    </div>
+
+</body>
+</html>
